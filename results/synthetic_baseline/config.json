@@ -1,0 +1,138 @@
+{
+  "experiment": "synthetic baseline",
+  "seed": 0,
+  "config": {
+    "name": "synthetic baseline",
+    "ablation_of": "dependency_aware_hybrid",
+    "seed": 0,
+    "repeats": 1,
+    "provide_failing_tests": false,
+    "retrieval": {},
+    "repair": {
+      "enabled": false,
+      "max_iterations": 3
+    },
+    "dataset": {
+      "kind": "synthetic"
+    },
+    "dataset_synthetic": true,
+    "resolved_methods": [
+      {
+        "label": "lexical",
+        "method": "lexical",
+        "disabled_signals": [],
+        "weights": {}
+      },
+      {
+        "label": "semantic",
+        "method": "semantic",
+        "disabled_signals": [],
+        "weights": {}
+      },
+      {
+        "label": "hybrid_conventional",
+        "method": "hybrid_conventional",
+        "disabled_signals": [],
+        "weights": {}
+      },
+      {
+        "label": "dependency_aware_hybrid",
+        "method": "hybrid_dependency",
+        "disabled_signals": [],
+        "weights": {}
+      },
+      {
+        "label": "adaptive",
+        "method": "adaptive",
+        "disabled_signals": [],
+        "weights": {}
+      },
+      {
+        "label": "dependency_aware_hybrid-minus-lexical",
+        "method": "hybrid_dependency",
+        "weights": {},
+        "disabled_signals": [
+          "lexical"
+        ],
+        "ablation": "lexical"
+      },
+      {
+        "label": "dependency_aware_hybrid-minus-symbol_exact",
+        "method": "hybrid_dependency",
+        "weights": {},
+        "disabled_signals": [
+          "symbol_exact"
+        ],
+        "ablation": "symbol_exact"
+      },
+      {
+        "label": "dependency_aware_hybrid-minus-semantic",
+        "method": "hybrid_dependency",
+        "weights": {},
+        "disabled_signals": [
+          "semantic"
+        ],
+        "ablation": "semantic"
+      },
+      {
+        "label": "dependency_aware_hybrid-minus-graph",
+        "method": "hybrid_dependency",
+        "weights": {},
+        "disabled_signals": [
+          "graph"
+        ],
+        "ablation": "graph"
+      },
+      {
+        "label": "dependency_aware_hybrid-minus-test",
+        "method": "hybrid_dependency",
+        "weights": {},
+        "disabled_signals": [
+          "test"
+        ],
+        "ablation": "test"
+      },
+      {
+        "label": "dependency_aware_hybrid-minus-trace",
+        "method": "hybrid_dependency",
+        "weights": {},
+        "disabled_signals": [
+          "trace"
+        ],
+        "ablation": "trace"
+      }
+    ],
+    "evaluated_task_keys": [
+      "synthetic-cart-remove-empty",
+      "synthetic-pricing-threshold",
+      "synthetic-report-cents",
+      "synthetic-shipping-keyerror",
+      "synthetic-sku-trailing-text",
+      "synthetic-truncate-length"
+    ],
+    "notes": [],
+    "retrieval_defaults": {
+      "method": "hybrid_dependency",
+      "weights": {
+        "lexical": 0.3,
+        "symbol_exact": 0.15,
+        "semantic": 0.2,
+        "graph": 0.15,
+        "test": 0.1,
+        "trace": 0.1,
+        "history": 0.0
+      },
+      "disabled_signals": [],
+      "top_k": 20,
+      "budget_chars": 24000,
+      "graph_depth": 2,
+      "graph_decay": 0.5,
+      "min_edge_confidence": 0.25,
+      "seed_count": 8,
+      "candidate_pool": 60,
+      "include_tests_in_context": true,
+      "adaptive_margin_threshold": 0.25,
+      "seed": 0
+    }
+  }
+}

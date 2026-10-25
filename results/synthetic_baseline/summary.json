@@ -1,0 +1,1335 @@
+{
+  "experiment": "synthetic baseline",
+  "n_tasks": 6,
+  "seed": 0,
+  "reference_method": "hybrid_conventional",
+  "methods": {
+    "lexical": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "top5": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.75,
+        "ci_low": 0.4166666666666667,
+        "ci_high": 1.0
+      },
+      "recall@1": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "recall@3": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 3224.1666666666665,
+        "ci_low": 1943.8333333333333,
+        "ci_high": 4298.5
+      },
+      "context_files": {
+        "mean": 7.333333333333333,
+        "ci_low": 5.0,
+        "ci_high": 9.5
+      },
+      "irrelevant_files": {
+        "mean": 6.5,
+        "ci_low": 4.0,
+        "ci_high": 8.666666666666666
+      },
+      "latency_ms": {
+        "mean": 1.8624694999971325,
+        "ci_low": 1.191241333321121,
+        "ci_high": 3.0562338333292396
+      },
+      "latency_ms_median": 1.2997870000077683
+    },
+    "semantic": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "top5": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.5833333333333334,
+        "ci_low": 0.25,
+        "ci_high": 0.8888888888888888
+      },
+      "recall@1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "recall@3": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 3952.3333333333335,
+        "ci_low": 3585.1666666666665,
+        "ci_high": 4385.0
+      },
+      "context_files": {
+        "mean": 9.166666666666666,
+        "ci_low": 8.166666666666666,
+        "ci_high": 10.0
+      },
+      "irrelevant_files": {
+        "mean": 8.5,
+        "ci_low": 7.333333333333333,
+        "ci_high": 9.333333333333334
+      },
+      "latency_ms": {
+        "mean": 0.94498183334224,
+        "ci_low": 0.7513211666747566,
+        "ci_high": 1.1301615000055183
+      },
+      "latency_ms_median": 1.0211225000062996
+    },
+    "hybrid_conventional": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "top5": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.75,
+        "ci_low": 0.4722222222222222,
+        "ci_high": 1.0
+      },
+      "recall@1": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "recall@3": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4270.0,
+        "ci_low": 3921.5,
+        "ci_high": 4596.5
+      },
+      "context_files": {
+        "mean": 9.333333333333334,
+        "ci_low": 8.166666666666666,
+        "ci_high": 10.333333333333334
+      },
+      "irrelevant_files": {
+        "mean": 8.5,
+        "ci_low": 7.333333333333333,
+        "ci_high": 9.5
+      },
+      "latency_ms": {
+        "mean": 2.448061333339524,
+        "ci_low": 1.6751650000135971,
+        "ci_high": 3.504024666663478
+      },
+      "latency_ms_median": 1.9851705000064612
+    },
+    "dependency_aware_hybrid": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "top5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.7222222222222222,
+        "ci_low": 0.5,
+        "ci_high": 0.9166666666666666
+      },
+      "recall@1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "recall@3": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4415.0,
+        "ci_low": 4233.833333333333,
+        "ci_high": 4592.833333333333
+      },
+      "context_files": {
+        "mean": 9.333333333333334,
+        "ci_low": 8.333333333333334,
+        "ci_high": 10.166666666666666
+      },
+      "irrelevant_files": {
+        "mean": 8.333333333333334,
+        "ci_low": 7.333333333333333,
+        "ci_high": 9.166666666666666
+      },
+      "latency_ms": {
+        "mean": 4.498040333340707,
+        "ci_low": 3.454217333342058,
+        "ci_high": 5.715319000013134
+      },
+      "latency_ms_median": 4.318345499996212
+    },
+    "adaptive": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "top5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.7222222222222222,
+        "ci_low": 0.5,
+        "ci_high": 0.9166666666666666
+      },
+      "recall@1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "recall@3": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4415.0,
+        "ci_low": 4233.833333333333,
+        "ci_high": 4592.833333333333
+      },
+      "context_files": {
+        "mean": 9.333333333333334,
+        "ci_low": 8.333333333333334,
+        "ci_high": 10.166666666666666
+      },
+      "irrelevant_files": {
+        "mean": 8.333333333333334,
+        "ci_low": 7.333333333333333,
+        "ci_high": 9.166666666666666
+      },
+      "latency_ms": {
+        "mean": 4.3695731666654565,
+        "ci_low": 3.3784448333354553,
+        "ci_high": 5.560662333323307
+      },
+      "latency_ms_median": 4.168668500000194
+    },
+    "dependency_aware_hybrid-minus-lexical": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "top5": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.6527777777777778,
+        "ci_low": 0.375,
+        "ci_high": 0.9166666666666666
+      },
+      "recall@1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "recall@3": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.5,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4305.333333333333,
+        "ci_low": 4127.0,
+        "ci_high": 4486.666666666667
+      },
+      "context_files": {
+        "mean": 9.5,
+        "ci_low": 8.333333333333334,
+        "ci_high": 10.666666666666666
+      },
+      "irrelevant_files": {
+        "mean": 8.5,
+        "ci_low": 7.333333333333333,
+        "ci_high": 9.666666666666666
+      },
+      "latency_ms": {
+        "mean": 2.910539166677495,
+        "ci_low": 2.311504833343747,
+        "ci_high": 3.683151500008345
+      },
+      "latency_ms_median": 2.7581615000116244
+    },
+    "dependency_aware_hybrid-minus-symbol_exact": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "top5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.7222222222222222,
+        "ci_low": 0.5,
+        "ci_high": 0.9166666666666666
+      },
+      "recall@1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "recall@3": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4408.333333333333,
+        "ci_low": 4201.5,
+        "ci_high": 4602.5
+      },
+      "context_files": {
+        "mean": 9.5,
+        "ci_low": 8.5,
+        "ci_high": 10.333333333333334
+      },
+      "irrelevant_files": {
+        "mean": 8.5,
+        "ci_low": 7.5,
+        "ci_high": 9.333333333333334
+      },
+      "latency_ms": {
+        "mean": 4.0394901666663445,
+        "ci_low": 3.087464999993017,
+        "ci_high": 5.092454999996221
+      },
+      "latency_ms_median": 3.9185224999869206
+    },
+    "dependency_aware_hybrid-minus-semantic": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "top5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.8333333333333334,
+        "ci_low": 0.6666666666666666,
+        "ci_high": 1.0
+      },
+      "recall@1": {
+        "mean": 0.6666666666666666,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 1.0
+      },
+      "recall@3": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4406.833333333333,
+        "ci_low": 4206.0,
+        "ci_high": 4631.166666666667
+      },
+      "context_files": {
+        "mean": 8.833333333333334,
+        "ci_low": 7.833333333333333,
+        "ci_high": 10.0
+      },
+      "irrelevant_files": {
+        "mean": 7.833333333333333,
+        "ci_low": 6.833333333333333,
+        "ci_high": 9.0
+      },
+      "latency_ms": {
+        "mean": 3.164432833320537,
+        "ci_low": 2.1229106666519706,
+        "ci_high": 4.369376666659264
+      },
+      "latency_ms_median": 2.9641919999932043
+    },
+    "dependency_aware_hybrid-minus-graph": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "top5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.6944444444444444,
+        "ci_low": 0.4722222222222222,
+        "ci_high": 0.9166666666666666
+      },
+      "recall@1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "recall@3": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4287.5,
+        "ci_low": 3965.5,
+        "ci_high": 4596.0
+      },
+      "context_files": {
+        "mean": 9.5,
+        "ci_low": 8.333333333333334,
+        "ci_high": 10.5
+      },
+      "irrelevant_files": {
+        "mean": 8.5,
+        "ci_low": 7.333333333333333,
+        "ci_high": 9.5
+      },
+      "latency_ms": {
+        "mean": 2.5754131666720546,
+        "ci_low": 1.7109161666771417,
+        "ci_high": 3.6475015000121402
+      },
+      "latency_ms_median": 2.2583665000013298
+    },
+    "dependency_aware_hybrid-minus-test": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "top5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.6944444444444444,
+        "ci_low": 0.4722222222222222,
+        "ci_high": 0.9166666666666666
+      },
+      "recall@1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "recall@3": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4392.833333333333,
+        "ci_low": 4211.666666666667,
+        "ci_high": 4587.333333333333
+      },
+      "context_files": {
+        "mean": 9.5,
+        "ci_low": 8.333333333333334,
+        "ci_high": 10.5
+      },
+      "irrelevant_files": {
+        "mean": 8.5,
+        "ci_low": 7.333333333333333,
+        "ci_high": 9.5
+      },
+      "latency_ms": {
+        "mean": 4.264520666666272,
+        "ci_low": 3.3279076666635397,
+        "ci_high": 5.307516666675838
+      },
+      "latency_ms_median": 4.334706000008737
+    },
+    "dependency_aware_hybrid-minus-trace": {
+      "n_tasks": 6,
+      "top1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "top5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "mrr": {
+        "mean": 0.7222222222222222,
+        "ci_low": 0.5,
+        "ci_high": 0.9166666666666666
+      },
+      "recall@1": {
+        "mean": 0.5,
+        "ci_low": 0.16666666666666666,
+        "ci_high": 0.8333333333333334
+      },
+      "recall@3": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@5": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "recall@10": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0
+      },
+      "context_chars": {
+        "mean": 4420.666666666667,
+        "ci_low": 4239.5,
+        "ci_high": 4602.5
+      },
+      "context_files": {
+        "mean": 9.5,
+        "ci_low": 8.5,
+        "ci_high": 10.333333333333334
+      },
+      "irrelevant_files": {
+        "mean": 8.5,
+        "ci_low": 7.5,
+        "ci_high": 9.333333333333334
+      },
+      "latency_ms": {
+        "mean": 4.1298000000011825,
+        "ci_low": 3.094704166665944,
+        "ci_high": 5.336530666667727
+      },
+      "latency_ms_median": 3.8788475000046674
+    }
+  },
+  "paired_vs_reference": {
+    "lexical": {
+      "top1": {
+        "n": 6,
+        "mean_diff": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 6,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 6,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": 4.625929269271485e-18,
+        "ci_low": -0.08333333333333333,
+        "ci_high": 0.08333333333333334,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 6,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 6,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "semantic": {
+      "top1": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": -0.16666666666666669,
+        "ci_low": -0.38888888888888895,
+        "ci_high": 0.0,
+        "p_value": 0.5,
+        "wins": 0,
+        "losses": 2,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "dependency_aware_hybrid": {
+      "top1": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": -0.027777777777777773,
+        "ci_low": -0.25,
+        "ci_high": 0.16666666666666669,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "adaptive": {
+      "top1": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": -0.027777777777777773,
+        "ci_low": -0.25,
+        "ci_high": 0.16666666666666669,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "dependency_aware_hybrid-minus-lexical": {
+      "top1": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.0,
+        "ci_low": -0.5,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": -0.09722222222222221,
+        "ci_low": -0.375,
+        "ci_high": 0.1388888888888889,
+        "p_value": 0.75,
+        "wins": 1,
+        "losses": 2,
+        "ties": 3,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.0,
+        "ci_low": -0.5,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "dependency_aware_hybrid-minus-symbol_exact": {
+      "top1": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": -0.027777777777777773,
+        "ci_low": -0.25,
+        "ci_high": 0.16666666666666669,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "dependency_aware_hybrid-minus-semantic": {
+      "top1": {
+        "n": 6,
+        "mean_diff": 0.0,
+        "ci_low": -0.5,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": 0.08333333333333334,
+        "ci_low": -0.2222222222222222,
+        "ci_high": 0.4166666666666667,
+        "p_value": 0.75,
+        "wins": 2,
+        "losses": 1,
+        "ties": 3,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "dependency_aware_hybrid-minus-graph": {
+      "top1": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": -0.05555555555555556,
+        "ci_low": -0.25,
+        "ci_high": 0.08333333333333333,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "dependency_aware_hybrid-minus-test": {
+      "top1": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": -0.05555555555555556,
+        "ci_low": -0.25,
+        "ci_high": 0.08333333333333333,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    },
+    "dependency_aware_hybrid-minus-trace": {
+      "top1": {
+        "n": 6,
+        "mean_diff": -0.16666666666666666,
+        "ci_low": -0.5,
+        "ci_high": 0.0,
+        "p_value": 1.0,
+        "wins": 0,
+        "losses": 1,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "top5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "mrr": {
+        "n": 6,
+        "mean_diff": -0.027777777777777773,
+        "ci_low": -0.25,
+        "ci_high": 0.16666666666666669,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 4,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "recall@5": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      },
+      "context_recall": {
+        "n": 6,
+        "mean_diff": 0.16666666666666666,
+        "ci_low": 0.0,
+        "ci_high": 0.5,
+        "p_value": 1.0,
+        "wins": 1,
+        "losses": 0,
+        "ties": 5,
+        "sufficient_n": false,
+        "interpretation": "inconclusive: only n=6 tasks (< 20); descriptive only"
+      }
+    }
+  },
+  "sample_size_warning": "n=6 tasks is below 20; all comparisons are descriptive, not evidence of improvement."
+}
